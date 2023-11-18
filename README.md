@@ -1,4 +1,4 @@
-# Solana Rust API
+# Capstone Project 
 
 ## https://www.leewayhertz.com/build-solana-smart-contracts/
 

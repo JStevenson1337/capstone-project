@@ -1,6 +1,6 @@
-== Proposal for Feature Consideration ==
+# Proposal for Feature Consideration
 
-=== Business Logic ===
+## Business Logic
 
 1. Business Campaigns and Budget Allocation:
 	* Develop a user-friendly interface for businesses to create reward
@@ -35,7 +35,7 @@
 	* Create a secure portal for managing registrations and whitelisting.
 	* Implement tools for monitoring campaigns and NFTs.
 
-=== User Experience Design ===
+## User Experience Design
 
 1. Clean, Minimalist, and Modern UI/UX:
 	* Collaborate with UI/UX designers to implement clean lines and flat icons.

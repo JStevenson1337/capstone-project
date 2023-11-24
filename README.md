@@ -1,10 +1,8 @@
-
-
-
+# README
 
 ## Alchemy Setup
 
-``` bash
-python <your_filename>.py
+``` python
+python alchemy_setup.py
 
 ```

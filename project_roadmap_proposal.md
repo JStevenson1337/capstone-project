@@ -1,48 +1,63 @@
 # Project Roadmap for Capstone Project
 
-## Preliminary Technology Stack and Tools
+## Proposed Technology Stack and Tools
 
-* Frontend: ReactJS
-* Backend: Node.js, Express.js
-* Database: MongoDB, Atlas, Firebase
-* Ethereum Blockchain: Solidity, Web3
-* Cloud Hosting: AWS EC2
+* Frontend: JavaScript (React), CSS, HTML
+* Backend: JavaScript, Node.js, Express.js, Solidity (Ethereum Smart Contracts)
+* Database: MongoDB (aligns with Node.js and provides flexibility for handling
+  diverse data types)
 * Version Control: Git, GitHub
 
-### Week 1-2: Project Kickoff and Planning
+# Proposed Roadmap
 
-### Tasks
-1. Week 1: Kickoff
+1. Setup Project Environment:
+   -[ ] Initialize the project repository.
+   -[ ] Set up development and production environments.
+   -[ ] Configure version control.
 
-- [x] Setup communication channels (Slack, GitHub, Jami, ect.)
-- [ ] Detailed review of project requirements
-- [ ] Define roles and responsibilities for each team member
-- [ ] Finalize the tech stack and tools to be used.
+2. Frontend Development:
+   -[ ] Create a basic React app structure
+   -[ ] Implement wallet connectivity using MetaMask.
+   -[ ] Design and develop the user dashboard for tracking reward progress.
+   -[ ] Integrate core blockchain functionality (e.g., token minting and
+   	burning).
 
-2. Week 2-4: Detailed Design and Documentation
+3. Backend Development:
+   -[ ] Set up a Node.js server.
+   -[ ] Implement business campaign creation and configuration.
+   -[ ] Enable payment functionalities via cryptocurrencies (stablecoins).
+   -[ ] Integrate NFT generation and claiming.
 
-- [x] Set up the project repository
-- [ ] Set up ReacJS frontend scaffolding
-- [ ] Configure AWS cloud server & deploy Node/Express backend
-- [ ] Initialize database and create models
-- [ ] Implement core business campaing APIs
-- [ ] Integrate Web3 Ethereum wallet connectivity
-- [ ] Develop token minting and burning smart contracts
+4. Database Integration:
+   -[ ] Connect the backend with MongoDB for data storage.
+   -[ ] Implement data models for campaigns, rewards, and user progress.
 
-3. Week 4-5: UI/UX Design and Development
+5. Blockchain Integration:
+   -[ ] Develop and deploy smart contracts using Solidity.
+   -[ ] Integrate smart contracts with the backend for seamless interaction.
+   
+6. UI/UX Refinement:
+   -[ ] Focus on creating clean and minimalist interfaces.
+   -[ ] Ensure intuitive navigation and flow for wallet connectivity.
+   -[ ] Implement visual cues for blockchain interactions.
+   -[ ] Add notification alerts for key events (e.g., reward claiming).
 
-- [ ] Complete frontend pages for campaign creation flows
-- [ ] Build admin portal for campaign monitoring and management
-- [ ] Implement user profiles and access control
-- [ ] Develop NFT design tool and metadata storage
-- [ ] Incorporate NFT claiming and distribution flows
-- [ ] Enable token redemption workflows against NFTs
+7. Testing:
+   -[ ] Conduct unit testing for individual components.
+   -[ ] Perform integration testing for the entire system.
+   -[ ] Test wallet connectivity, payment processes, and smart contract
+   	interactions.
 
-4. Week 5-final: Testing, Refinement, and Deployment
+8. Deployment:
+   -[ ] Prepare for deployment to a staging environment.
+   -[ ] Conduct thorough testing in the staging environment.
+   -[ ] Deploy the MVP to a production environment.
 
-- [ ] Perform unit and integration testing across flows and functionality
-- [ ] Harden security, fix bugs, improve performance
-- [ ] Update and finalize documentation including user manuals and technical
-      documentations.
-- [ ] Prepare for project presentation and demo: achievements, challenges, and
-      future plans.
+9. Documentation:
+   -[ ] Document the MVP architecture and key functionalities.
+   -[ ] Provide user guides for wallet connectivity and campaign participation.
+
+10. Review and optimization:
+   -[ ] Gather feedback from internal testing.
+   -[ ] Optimize code for performance.
+   -[ ] Address any identified issues or bugs.

@@ -8,12 +8,18 @@ w3 = Web3(HTTPProvider('https://polygon-rpc.com'))
 your_address = '0x21001dF37a1208E6e8E84294Ac7dFf05038D5403'
 your_private_key = '2a48a014184bc0ebca851e0039e61f27ad8bf9ea0174eb2b32dd439a08fd15c4'
 
+
+print(your_address)
+print(your_private_key)
+
+
 # Smart contract source code
 contract_source_code = '''
 pragma solidity ^0.8.0;
 
 // ERC-20 Token Definition
-contract RewardToken {
+contract RewardToken
+{
     string public name;
     string public symbol;
     uint256 public totalSupply;
@@ -39,6 +45,11 @@ contract RewardToken {
 }
 '''
 
+
+print(contract_source_code)
+
+
+"""
 # Compile the smart contract
 compiled_sol = compile_source(contract_source_code)
 contract_interface = compiled_sol['<stdin>:RewardToken']
@@ -59,10 +70,11 @@ if your_private_key and your_address:
         'nonce': nonce,
     })
 
-    signed_transaction = w3.eth.account.sign_transaction(transaction, private_key=your_private_key)
+   signed_transaction = w3.eth.account.sign_transaction(transaction, private_key=your_private_key)
 
     # Deploy the contract
     tx_hash = w3.eth.sendRawTransaction(signed_transaction.rawTransaction)
+    
     receipt = w3.eth.waitForTransactionReceipt(tx_hash)
     deployed_contract = w3.eth.contract(address=receipt['contractAddress'], abi=contract_interface['abi'])
 
@@ -74,3 +86,4 @@ if deployed_contract:
 
     print(f"Smart Contract Address: {deployed_contract.address}")
 
+"""

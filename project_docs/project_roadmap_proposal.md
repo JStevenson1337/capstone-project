@@ -13,9 +13,9 @@
 1. Setup Project Environment:
 - [x] Initialize the project repository.
 - [ ] Set up development and production environments.
-    - [ ] Choose develoment environment (Hardhat, Truffle, etc.)
-    - [ ] Install dependencies (Node.js, npm, React, Ganashe)
-    - [ ] Configure Blockchain Network (Ganashe, Etheum Testnet)
+    - [ ] Choose develoment environment ([Hardhat
+	  Tutorial](https://hardhat.org/tutorial/))
+    - [ ] Install dependencies (Node.js, npm, React, Ganashe) Configure Blockchain Network (Ganashe, Etheum Testnet)
 - [x] Configure version control.
 
 2. Frontend Development:
